@@ -1,3 +1,27 @@
-h1{
-    color: red;
+section{
+    margin: 50px;
+    li{
+        font-weight: bold;
+       }
 }
+
+hr{
+    border: none;
+    border-top: 1px dashed #BEBEBE;
+    text-align: center;
+    overflow: visible;
+}
+
+.section-title{
+   position: relative;
+   width: fit-content;
+   margin: 0 auto;
+   top: 17px;
+   padding: 0 5px;
+   background-color: white;
+   font-style: italic;
+
+   
+}
+
+
