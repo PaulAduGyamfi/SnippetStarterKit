@@ -1,0 +1,35 @@
+{
+  "name": "snippetstarterkit",
+  "version": "1.0.0",
+  "description": "starter kit for making snippets",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "browsersync": "^0.0.1-security",
+    "child_process": "^1.0.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cachebust": "0.0.11",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pretty-url": "^0.1.1",
+    "gulp-sass": "^4.0.2",
+    "path": "^0.12.7",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.7.7",
+    "webpack": "^4.41.6",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:webpack": "webpack --config webpack.dev.js",
+    "build:webpack": "webpack --config webpack.prod.js",
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC"
+}
